@@ -1,7 +1,5 @@
 ---
 title: Apache Flink - Stateful Computations over Data Streams
-layout: base
-date: index.mdT00:00:00-00:00
 draft: false
 ---
 <!--
@@ -24,33 +22,73 @@ under the License.
 -->
 
 # Apache Flink
+{{< center >}} 
+### A framework and distributed processing engine for stateful computations over *unbounded* and *bounded* data streams.
+{{< /center >}}
 
-**Apache Flink** is a framework and distributed processing engine for stateful computations over *unbounded* and *bounded* data streams. Flink has been designed to run in *all common cluster environments* perform computations at *in-memory* speed and at *any scale*.
+![Apache Flink](/images/flink-home-graphic.png)
 
+{{< column >}}
 
-### Learn Flink
+#### All streaming use cases
 
-* To dive in deeper, the Hands-on Training includes a set of lessons and exercises that provide a step-by-step introduction to Flink.
+* Event-driven applications
+* Stream & batch analytics
+* Data pipelines & ETL 
 
-* The Concepts section explains what you need to know about Flink before exploring the reference documentation.
+[Learn more](https://flink.apache.org/usecases.html)
 
+#### Operational focus
+
+* Flexible deployment
+* High-availability setup
+* Savepoints
+
+[Learn more](https://flink.apache.org/flink-operations.html)
+
+<--->
+
+#### Guaranteed correctness
+
+* Exactly-once state consistency
+* Event-time processing
+* Sophisticated late data handling
+
+[Learn more](https://flink.apache.org/flink-applications.html#building-blocks-for-streaming-applications)
+
+#### Scales to any use case
+
+* Scale-out architecture
+* Support for very large state
+* Incremental checkpointing
+
+[Learn more](https://flink.apache.org/flink-architecture.html#run-applications-at-any-scale)
+
+<--->
+
+#### Layered APIs
+
+* SQL on stream & batch data
+* DataStream API & DataSet API
+* ProcessFunction (time & state)
+
+[Learn more](https://flink.apache.org/flink-applications.html#layered-apis)
+
+#### Excellent performance
+
+* Low latency
+* High throughput
+* In-memory computing
+
+[Learn more](https://flink.apache.org/flink-architecture.html#leverage-in-memory-performance)
+
+{{< /column >}}
 
 ### Upcoming Events
 
-<div class="col-sm-9">
-  <!-- Flink Forward -->
-  <a href="https://flink-forward.org" target="_blank">
-    <img style="width: 190px; padding-right: 10px" src="{{ site.baseurl }}/img/flink-forward.png" alt="Flink Forward"/>
-  </a>
-  <!-- ApacheCon -->
-  <a href="https://www.apache.org/events/current-event" target="_blank">
-    <img src="https://www.apache.org/events/current-event-234x60.png" alt="ApacheCon"/>
-  </a>
-</div>
-
-
+[![Flink Forward](/images/flink-forward.png)](https://flink-forward.org)
 
 ### Latest Blog Posts
 
-Release notes cover important changes between Flink versions. Please read them carefully if you plan to upgrade your Flink setup.
+
 

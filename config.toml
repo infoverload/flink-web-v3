@@ -4,3 +4,43 @@ title = "Apache Flink"
 enableGitInfo = false
 theme = "learn"
 pygmentsUseClasses = true
+
+
+[params]
+  description = "Apache Flink - Stateful Computations over Data Streams"
+  disableSearch = true
+  disableInlineCopyToClipBoard = false
+  disableLandingPageButton = true
+  disableLanguageSwitchingButton = false
+  disableMermaid = true
+  disableNextPrev = true
+  ordersectionsby = "weight"
+  themeVariant = "custom"
+  titleSeparator = "-"
+
+
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /zh/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+[Languages.en]
+weight = 1
+languageName = "English"
+contentDir = 'content'
+
+[Languages.zh]
+weight = 2
+languageName = "中文版"
+contentDir = 'content.zh'
+
+[[Languages.en.menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/apache/flink"
+weight = 10
+
+[[Languages.en.menu.shortcuts]] 
+name = "<i class='fab fa-twitter'></i> Twitter"
+url = "https://twitter.com/apacheflink"
+weight = 11
