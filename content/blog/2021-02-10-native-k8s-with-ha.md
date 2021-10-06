@@ -3,6 +3,7 @@ authors:
 - Yang Wang: null
   name: Yang Wang
 date: "2021-02-10T00:00:00Z"
+type: blog
 excerpt: Kubernetes provides built-in functionalities that Flink can leverage for
   JobManager failover. In Flink 1.12 (FLIP-144), the community implemented a Kubernetes
   High Availability (HA) service as an alternative to ZooKeeper for highly available

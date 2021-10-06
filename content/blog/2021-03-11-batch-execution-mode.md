@@ -4,6 +4,7 @@ authors:
   name: Dawid Wysakowicz
   twitter: dwysakowicz
 date: "2021-03-11T00:00:00Z"
+type: blog
 excerpt: Apache Flink 1.12 introduced batch execution mode through FLIP-140. This
   blog post discusses when to use the new mode, discusses its benefits and gives examples
   of programs that can be run in it.

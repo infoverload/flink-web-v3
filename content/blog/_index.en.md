@@ -1,9 +1,9 @@
 ---
 title: "Blog"
 weight: 9
-layout: base
 date: blog.mdT00:00:00-00:00
 draft: false
+chapter: true
 ---
 <!--
 Licensed to the Apache Software Foundation (ASF) under one
@@ -24,5 +24,6 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-Check out the latest blog posts
+Check out our blog posts!
 
+{{% children depth="1" %}}

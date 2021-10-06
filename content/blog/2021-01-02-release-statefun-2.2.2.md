@@ -4,6 +4,7 @@ authors:
   twitter: tzulitai
   tzulitai: null
 categories: news
+type: blog
 date: "2021-01-02T00:00:00Z"
 title: Stateful Functions 2.2.2 Release Announcement
 ---

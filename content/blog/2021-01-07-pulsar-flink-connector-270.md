@@ -7,6 +7,7 @@ authors:
   name: Jennifer Huang
   twitter: Jennife06125739
 date: "2021-01-07T08:00:00Z"
+type: blog
 excerpt: With the unification of batch and streaming regarded as the future in data
   processing, the Pulsar Flink Connector provides an ideal solution for unified batch
   and stream processing with Apache Pulsar and Apache Flink. The Pulsar Flink Connector

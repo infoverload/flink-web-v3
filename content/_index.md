@@ -90,5 +90,28 @@ under the License.
 
 ### Latest Blog Posts
 
+{{ range ( first 3 ( where .Site.Pages "Type" "blog" ).ByDate ) }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
 
+{{ range ( where .Site.Pages "Type" "blog" | first 3 ) }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{end}}
 
+{{ range where (where .Pages "Type" "blog" ) "Params.date" "=" 2021-08-06T00:00:00Z }}
+
+{{ range first 5 (where .Site.Pages "type" "blog") }}
+
+{{ range where .Site.Pages "Params.type" "blog" }}
+   {{ .Title }}
+{{ end }}
+
+{{ range (where .Site.Pages "Params.type" "eq" blog) }}
+
+{{ range .Site.Pages.type }}
+  <p>Title: {{ .title }}</p>
+{{ end }}
+
+{{% notice info %}}
+29.09.2021 - Apache Flink 1.14 has been released and we would love to hear your feedback. :)
+{{% /notice %}}

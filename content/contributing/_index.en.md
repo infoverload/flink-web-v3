@@ -85,9 +85,7 @@ Apache Flink is developed by an open and friendly community. Everybody is cordia
 </table>
 
 
-
 ## Further reading
-
 
 #### How to become a committer
 
@@ -128,3 +126,6 @@ A PMC member is also a committer. Candidates are already committers or will auto
 
 A PMC member has a lot of power in a project. A single PMC member can block many decisions and generally stall and harm the project in many ways. We hence must trust the PMC candidates to be level-headed, constructive, supportive, and willing to "disagree and commit" at times.
 
+______________________________________________________________________________
+
+{{% children depth="2" %}}

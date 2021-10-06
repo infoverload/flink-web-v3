@@ -4,6 +4,7 @@ authors:
   rob: null
   twitter: rmetzger_
 date: "2021-05-06T00:00:00Z"
+type: blog
 excerpt: Apache Flink 1.13 introduced Reactive Mode, a big step forward in Flink's
   ability to dynamically adjust to changing workloads, reducing resource utilization
   and overall costs. This blog post showcases how to use this new feature on Kubernetes,

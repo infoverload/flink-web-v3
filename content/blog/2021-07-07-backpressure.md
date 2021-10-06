@@ -4,6 +4,7 @@ authors:
   pnowojski: null
   twitter: PiotrNowojski
 date: "2021-07-07T00:00:00Z"
+type: blog
 excerpt: Apache Flink 1.13 introduced a couple of important changes in the area of
   backpressure monitoring and performance analysis of Flink Jobs. This blog post aims
   to introduce those changes and explain how to use them.

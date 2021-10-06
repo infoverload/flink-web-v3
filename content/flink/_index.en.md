@@ -9,6 +9,4 @@ draft: false
 
 Discover all the core concepts behind Apache Flink!
 
-- Applications
-- Architecture
-- Operations
+{{% children depth="1" %}}
